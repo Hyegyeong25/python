@@ -10,7 +10,7 @@ def myFunc() :
 window = Tk()
 
 photo = PhotoImage(file = "D:\\2학기\\빅데이터프로그래밍(파이썬)\\gif\\dog2.gif")
-button1 = Button(window, image = photo, command = myFunc())
+button1 = Button(window, image = photo, command = myFunc)
 
 button1.pack()
 window.mainloop()
